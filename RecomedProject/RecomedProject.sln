@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecomedProject", "RecomedProject\RecomedProject.csproj", "{B2173B79-DBFE-4439-8D20-25F20F632199}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FLS", "Fuzzy-Logic\FLS.csproj", "{008088EC-5365-4EBD-BC54-97FC0BB4876C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B2173B79-DBFE-4439-8D20-25F20F632199}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2173B79-DBFE-4439-8D20-25F20F632199}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2173B79-DBFE-4439-8D20-25F20F632199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{008088EC-5365-4EBD-BC54-97FC0BB4876C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{008088EC-5365-4EBD-BC54-97FC0BB4876C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{008088EC-5365-4EBD-BC54-97FC0BB4876C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{008088EC-5365-4EBD-BC54-97FC0BB4876C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
