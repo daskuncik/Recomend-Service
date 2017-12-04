@@ -19,7 +19,7 @@ namespace RecomedProject.Classes
 
             using (TextFieldParser parser = new TextFieldParser(@"c:\temp\relations_in_genres.csv"))
             {
-                int size = genres_items_origin.Count;
+                int size = 10;//genres_items_origin.Count;
                 ArrayOfRelations = new double[size, size];
 
                 parser.TextFieldType = FieldType.Delimited;

@@ -46,6 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Charge.cs" />
+    <Compile Include="Classes\Enums.cs" />
+    <Compile Include="Classes\Income.cs" />
+    <Compile Include="Classes\Month.cs" />
     <Compile Include="Classes\Parcer.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -79,6 +83,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fuzzy-Logic\FLS.csproj">
+      <Project>{008088ec-5365-4ebd-bc54-97fc0bb4876c}</Project>
+      <Name>FLS</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
